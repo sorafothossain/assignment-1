@@ -8,13 +8,37 @@
     "wdth" 100;
 }
 
-/* nave style */
+/* shared style */
+
+.bg-color{
+    background-color: #F5F5F5;
+}
+
+
+.btn-primary{
+    background-color: #006A50;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+/* nav style */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 160px;
+    margin: 20px 130px;
     
+}
+
+nav h3{
+    font-size: 32px;
+    color: #0E0E0E;
+    font-weight: bold;
 }
 
 .nav-title{
@@ -30,4 +54,30 @@ nav button{
     color: #006A50;
     border-color: #006A50;
     
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.banner-section{
+    margin: 20px 130px;
+}
+
+.banner-content h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+.banner-content h2{
+    font-size: 41px;
+    color: #0E0E0E;
+    font: bold;
 }
