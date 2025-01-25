@@ -10,8 +10,30 @@
 
 /* shared style */
 
+
+.hover-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+main section{
+    margin: 20px 100px;
+}
+
 .bg-color{
-    background-color: #F5F5F5;
+    background-color: #F1F1F3;
 }
 
 
@@ -31,7 +53,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 130px;
+    margin: 20px 100px;
     
 }
 
@@ -48,7 +70,7 @@ nav h3{
 
 nav button{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     padding:10px 20px;
     border-radius: 5px;
     color: #006A50;
@@ -68,7 +90,7 @@ nav button{
 }
 
 .banner-section{
-    margin: 20px 130px;
+    margin: 20px 100px;
 }
 
 .banner-content h4{
@@ -80,4 +102,121 @@ nav button{
     font-size: 41px;
     color: #0E0E0E;
     font: bold;
+}
+
+/* card styles */
+
+.card-container{
+    margin-bottom: 80px;
+}
+
+.card-container h1{
+    font: bold;
+    font-size: 40px;
+}
+
+.card-container p{
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+.card-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card-1{
+    background-color: #81B4FC;
+    padding: 30px;
+    border-radius: 16px;
+
+}
+
+.card-2{
+    background-color: #C6E4D6;
+    padding: 30px;
+    border-radius: 16px;
+}
+.card-3{
+    background-color: #F7EBCF;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.card-title{
+    font: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+}
+
+.card-description{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.card-items button{
+    font: 600;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 11px 14px
+}
+
+.card-1 button{
+    background-color: #5490F5;
+    border: none;
+}
+
+.card-2 button{
+    background-color: #09A15C;
+    border: none;
+}
+
+.card-3 button{
+    background-color: #FFC239;
+    border: none;
+}
+
+/* card-sub-title style */
+
+.card-sub-title .title-description{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.card-sub-title{
+    margin-top: 32px;
+    
+}
+
+.title-box{
+    background-color: #ffffff;
+    padding: 30px 24px;
+    border-radius: 16px;
+
+    
+}
+
+.title-box .title-description{
+    font-size: 16px;
+    color: #0E0E0E
+
+    
+    
+}
+
+.title-box .title-name{
+    font: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+}
+
+.title-box .title-sub-description{
+    font-size: 16px;
+    color: #0E0E0E;
+
+    
 }
