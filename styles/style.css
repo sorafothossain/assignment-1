@@ -279,6 +279,7 @@ nav button{
 
 .donate-section{
     margin: 50 140px;
+    margin-top: 80px;
 }
 
 .donate-section h1{
@@ -315,7 +316,8 @@ nav button{
 }
 
 .donate-section input{
- width: 100%;
+ width: 90%;
+ margin-left: 30px;
  text-align: center;
  align-items: center;
  padding: 20px 20px;
@@ -324,9 +326,49 @@ nav button{
 }
 
 .donate-section button{
-margin-left: 45%;
+margin-left: 43%;
 margin-top: 32px;
     
+}
+
+/* footer section styles */
+footer{
+    margin: 20px 100px;
+}
+
+
+.footer-section{
+    margin-top: 80px;
+     background-color: #C6E4D6;
+     padding: 100px 80px;
+     border-radius: 26px;
+}
+
+.footer-section h1{
+    font: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer-section p{
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-section input{
+    width: 50%;
+    padding: 20px 20px;
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+.footer-section button{
+    width: 10%;
+    padding: 20px 35px;
 }
 
 
